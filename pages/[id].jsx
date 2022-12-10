@@ -31,9 +31,9 @@ const clickHandler=()=>{
   console.log("calling")
     console.log(comments);
   getToxicity(comments);
-  setTimeout(()=>setCommentsLoaded(true),3000)
+  setTimeout(()=>setCommentsLoaded(true),5000)
   
-  setTimeout(()=>setCommentsLoaded(false),6000)
+  setTimeout(()=>setCommentsLoaded(false),9000)
 }
 
   return (
