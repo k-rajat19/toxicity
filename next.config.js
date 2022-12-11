@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/videoId',
+        destination:'/videoId',
         permanent: true,
       },
     ]
